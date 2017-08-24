@@ -19,4 +19,4 @@ A to-do list app for Android.
 
 **GIF walkthrough of all required and optional stories:**
 
-![Video Walkthrough](List-O.gif)
+![Video Walkthrough](ListO.gif)
