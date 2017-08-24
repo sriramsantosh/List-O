@@ -9,7 +9,7 @@ A to-do list app for Android.
  * [x] *Required*: Delete a task
  * [x] *Required*: Restore previously saved items on app restarts 
  * [x] *Extra*: Persist task items into SQLite instead of a text file 
- * [x] *Extra*: Styled UI (e.g. iconography, custom logo/branding, colors, typography)
+ * [x] *Extra*: Styled UI (e.g. iconography, custom logo/branding, colors, typography), also added a splash screen.
  * [x] *Extra*: Set completion due dates for tasks 
  * [x] *Extra*: Set priority levels for tasks and display within ListView item
  * [x] *Extra*: Custom adapter for improved style of tasks within ListView
