@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/allTasks"
+    android:icon="@drawable/add_icon"
+    android:title="All the tasks"
+    app:showAsAction="always"
+    android:orderInCategory="0"/>
+
+</menu>

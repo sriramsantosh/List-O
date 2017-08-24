@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">List-O</string>
+    <string name="addButton">Add</string>
+    <string name="addItem">Add a new Item</string>
+
+    <string-array name="priority_level_string_array_values">
+        <item>@string/priority_level_high</item>
+        <item>@string/priority_level_medium</item>
+        <item>@string/priority_level_low</item>
+    </string-array>
+
+    <string-array name="status_string_array_values">
+        <item>@string/status_to_do</item>
+        <item>@string/status_in_progress</item>
+        <item>@string/status_done</item>
+    </string-array>
+
+    <string name="priority_level_high">HIGH</string>
+    <string name="priority_level_medium">MEDIUM</string>
+    <string name="priority_level_low">LOW</string>
+    <string name="status_label">Status</string>
+    <string name="status_done">DONE</string>
+    <string name="status_to_do">TO-DO</string>
+    <string name="status_in_progress">IN-PROGRESS</string>
+
+</resources>

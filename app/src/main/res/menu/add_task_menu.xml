@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/back_icon"
+        android:orderInCategory="1"
+        android:title="Back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save_icon"
+        android:title="Save"
+        app:showAsAction="always"
+        android:orderInCategory="4"/>
+
+</menu>

@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:scrollbarStyle="outsideOverlay" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0" >
+
+        <TableRow>
+
+            <TextView
+                android:padding="1dip"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Task Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#452446"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTaskName"
+                android:ems="10"
+                android:gravity="left"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#452446" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="1dip"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Task Priority"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#452446"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/editTaskPriority"
+                android:ems="10"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:entries="@array/priority_level_string_array_values"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#452446" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:padding="1dip"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Task Notes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#452446"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTaskNotes"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Put in any relevant notes in here"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:layout_height="80dp"
+                android:textColor="#452446"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#452446" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:padding="1dip"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Task Status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#452446"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/editTaskStatus"
+                android:ems="10"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:entries="@array/status_string_array_values"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Due Date"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#452446"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editDueDate"
+                android:gravity="left"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#452446" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/cancelButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="25dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:width="5dp"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Cancel"
+                android:textColorLink="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/saveButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:width="5dp"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:text="Save"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#452446" />
+
+    </TableLayout>
+
+</ScrollView>
