@@ -17,6 +17,6 @@ A to-do list app for Android.
  * [x] *Extra*: Adaptive to different screen orientations (landscape vs. portrait)
  * [x] *Extra*: Organized the app as per recommended way.
 
-**GIF walkthrough of all required and optional stories:**
+**GIF walkthrough of the above stories:**
 
 ![Video Walkthrough](ListO.gif)
